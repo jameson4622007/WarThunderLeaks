@@ -15,7 +15,7 @@
 <main>
 <!-- DTC10-125 APFSDS -->
     <section>
-        <h1>DTC10-125 APFSDS || 5/6/2022</h1>
+        <h1>DTC10 125mm projectile APFSDS || 5/6/2022</h1>
         <article> 
             <h3>
             The ammo half of the Chinese armor leak from 2022. I've actually got a pic of the document itself lol, here's a translation I found.
@@ -58,11 +58,31 @@
     </div>
                 <br>
                 <span><img src="images\DTC10-125.jpg" alt="" width="40%"></span>
-                <img src="images\DTW-125_Evidence.jpg" alt="" width="40%">
         </h3>
-<!-- Button 1 -->
+    <!-- Button 1 -->
+            <a href="https://forum.cartridgecollectors.org/t/leaked-chinese-apfsds-dtc10-125mm/50024" 
+       class="button button-1" 
+       target="_blank">WarThunder Forum
+            </a>
+        </article>
+    </section>
+
+<!-- DTW-125 -->
+    <section>
+    <h1>DTW-125  || 15/9/23 </h1>
+        <article> 
+            <h3>
+            Documents detailing specifics of the Chinese DTW-125 tank round were put on the forums before being taken down by a mod. I think this may have been the same round as an earlier leak but I'm still gonna list this just in case
+                <br>
+                <span><img src="images\DTW-125.png" alt="" width="30%"></span>
+                <img src="images\DTW-125_Evidence.jpg" alt="" width="50%">
+            </h3>
+    <!-- Button 1 -->
             <a href="https://forum.warthunder.com/t/vt4a1-the-well-defended-battle-wolf/11194/15" 
        class="button button-1" 
        target="_blank">WarThunder Forum
+            </a>
+        </article>
+    </section>
         </article>
     </section>
