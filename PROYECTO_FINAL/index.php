@@ -10,17 +10,7 @@
 </head>
 <body>
     <header>
-        <div class="top-header">
-            <a href="https://warthunder.com/es/"><img src="images\War-Thunder-Logo.png" width="300px"></a>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.php" target="_blank">Main</a></li>
-                <li><a href="TanksLeaks.php" target="_blank">Tanks leaks</a></li>
-                <li><a href="AirLeaks.php" target="_blank">Air Leaks</a></li>
-                <li><a href="link.php" target="_blank">other Leaks</a></li>
-            </ul>
-        </nav>
+        <?php include_once "includes/nav.php" ?>
     </header>
 
     <main>
@@ -51,17 +41,9 @@
         </section>
     </main>
 
-    <footer class="footer">
-        
-          
-          <ul class="enlaces-legales">
-            <li><a href="https://legal.gaijin.net/" target="_blank">Términos y Condiciones</a></li>
-            <li><a href="https://legal.gaijin.net/privacypolicy/" target="_blank">Política de Privacidad</a></li>
-            <li><a href="https://legal.gaijin.net/termsofservice/" target="_blank">Condiciones de Uso</a></li>
-            <li><a href="https://support.gaijin.net/" target="_blank">Soporte al cliente</a></li>
-          </ul>
-          <img src="images/gaijin-entertainment-logo.png" alt="Gaijin Logo" class="logo-left">
-          <img src="images/War-Thunder-Logo-blanco.png" alt="War Thunder Logo" class="logo-center">
-      </footer>
+<footer>
+<?php include_once "includes/footer.php" ?>
+</footer>
+
 </body>
 </html>

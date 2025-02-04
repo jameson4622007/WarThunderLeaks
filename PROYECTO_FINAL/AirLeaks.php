@@ -9,19 +9,9 @@
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-    <header>
-        <div class="top-header">
-            <a href="https://warthunder.com/es/"><img src="images\War-Thunder-Logo.png" width="300px"></a>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.php" target="_blank">Main</a></li>
-                <li><a href="TanksLeaks.php" target="_blank">Tanks leaks</a></li>
-                <li><a href="AirLeaks.php" target="_blank">AIr Leaks</a></li>
-                <li><a href="link.php" target="_blank">other Leaks</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+        <?php include_once "includes/nav.php" ?>
+</header>
 <main>
 <!-- Eurocopter Tiger -->
     <section>
@@ -61,18 +51,91 @@
             </h3>
         </article>
     </section>
-</main>
 
-    <footer class="footer">
-        
-        <ul class="enlaces-legales">
-            <li><a href="https://legal.gaijin.net/" target="_blank">Términos y Condiciones</a></li>
-            <li><a href="https://legal.gaijin.net/privacypolicy/" target="_blank">Política de Privacidad</a></li>
-            <li><a href="https://legal.gaijin.net/termsofservice/" target="_blank">Condiciones de Uso</a></li>
-            <li><a href="https://support.gaijin.net/" target="_blank">Soporte al cliente</a></li>
-        </ul>
-            <img src="images/gaijin-entertainment-logo.png" alt="Gaijin Logo" class="logo-left">
-            <img src="images/War-Thunder-Logo-blanco.png" alt="War Thunder Logo" class="logo-center">
-    </footer>
+<!-- F-16 -->
+<section>
+    <h1>F-16  || 18/1/2023 </h1>
+        <article> 
+            <h3>
+            Same guy as the F-15E leak, but the leak pertained to it's AIM-120 missile. See the first link for the F-15E.
+                <br>
+                <span><img src="images\F16.jpg" alt="" width="40%"></span>
+                <img src="images\F-15E_Evidence.jpg" alt="" width="20%">
+            </h3>
+        </article>
+    </section>
+
+<!-- Shenyang J8-B -->
+<section>
+    <h1>Shenyang J8-B  || 31/1/2023 </h1>
+        <article> 
+            <h3>
+            Another one leaked documents on the chinese J8-B. This leak contained details pertaining to it's radar.
+                <br>
+                <span><img src="images\shenyang_j-8b.jpg" alt="" width="40%"></span>
+                <img src="images\J8B_Evidence.jpg" alt="" width="40%">
+            </h3>
+            <!-- Button 1 -->
+    <a href="    https://www.reddit.com/r/Warthunder/comments/10p5tjo/ladies_and_gentlemen_i_have_officially_lost_count/" 
+        class="button button-1" 
+        target="_blank">Reddit Post
+    </a>
+        </article>
+</section>
+
+<!-- Eurofighter Typhoon -->
+<section>
+    <h1>Eurofighter Typhoon  || 30/8/2023 </h1>
+        <article> 
+            <h3>
+            the Eurofighter Typhoon. A true madlad posted a full 730 page manual that encompassed a total dossier of the jet on the warthunder forums leading most likely to a ban.
+                <br>
+                <span><img src="images\typhoon.jpg" alt="" width="40%"></span>
+                <img src="images\typhoon_Evidence.jpg" alt="" width="40%">
+            </h3>
+            <!-- Button 1 -->
+    <a href="https://www.reddit.com/r/TwoBestFriendsPlay/comments/1hc0kjt/once_again_classified_military_intelligence_was/" 
+        class="button button-1" 
+        target="_blank">Reddit Post
+    </a>
+
+            <!-- Button 2 -->
+            <a href="https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fwww.resetera.com%2Fthreads%2Fwar-thunder-user-once-again-leaks-classifed-documents-eurofighter-typhoon-but-this-time-the-devs-respond.1059270%2F" 
+        class="button button-1" 
+        target="_blank">Resetera.com
+    </a>
+
+            <!-- Button 3 -->
+            <a href="https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fwww.yardbarker.com%2Fvideo_games%2Farticles%2Fwar_thunder_player_leaks_restricted_typhoon_manuals_on_the_forum%2Fs1_17144_41182373" 
+        class="button button-1" 
+        target="_blank">.Yardbarker.com
+    </a>
+        </article>
+</section>
+
+
+<!-- F-117 Nighthawk -->
+<section>
+    <h1>F-117 Nighthawk  || 11/9/2023 </h1>
+        <article> 
+            <h3>
+            Another one leaked documents on the chinese J8-B. This leak contained details pertaining to it's radar.
+                <br>
+                <span><img src="images\shenyang_j-8b.jpg" alt="" width="40%"></span>
+                <img src="images\J8B_Evidence.jpg" alt="" width="40%">
+            </h3>
+            <!-- Button 1 -->
+    <a href="    https://www.reddit.com/r/Warthunder/comments/10p5tjo/ladies_and_gentlemen_i_have_officially_lost_count/" 
+        class="button button-1" 
+        target="_blank">Reddit Post
+    </a>
+        </article>
+</section>
+
+</main>
+<footer>
+<?php include_once "includes/footer.php" ?>
+</footer>
+
 </body>
 </html>
