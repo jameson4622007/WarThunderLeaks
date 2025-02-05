@@ -87,6 +87,50 @@
         </article>
 </section>
 
+<section>
+     <h2>↓ Unconfirmed Tank leaks ↓</h2>
+</section>
+
+<!--BMP-3-->
+<section>
+     <h1>BMP-3<h1>
+        <article>
+            <h3>
+            A manual was supposedly leaked for the BMP-3 via Korean documents. This one is really a reach as all I've got is a reddit link. Still a possible funny though.
+                <br>
+                <span><img src="images\BMP-3.jpg" alt="" width="60%"></span>
+            </h3>
+    <!-- Button 1 -->
+    <a href="https://www.reddit.com/r/Warthunder/comments/10fkd5x/document_leak_question/" 
+        class="button button-1" 
+        target="_blank">Reddit post
+    </a>
+    </article> 
+    </section>
+
+    <!--T-90M-->
+
+    <section>
+     <h1>T-90M<h1>
+        <article>
+            <h3>
+            A manual allegedly got leaked for the T-90M's operation and diagrams of its ERA blocks. Hard to gather concrete evidence for this one since most forums talking about it have been nuked from orbit so I'm throwing it in here for now.
+                <br>
+                <span><img src="images\T-90M.jpg" alt="" width="60%"></span>
+            </h3>
+    <!-- Button 1 -->
+    <a href="https://forum.warthunder.com/t/challenger-1-mk2-and-mk3-armour-issue/126848/9" 
+        class="button button-1" 
+        target="_blank">War Thunder Post
+    </a>
+    <!-- Button 2 -->
+    <a href="https://www.reddit.com/r/TankPorn/comments/1dz3nlr/comment/lce5dbt/?" 
+        class="button button-1" 
+        target="_blank">Reddit post
+    </a>
+    </article>
+            
+    </section>
 </main>
 
 <footer>
