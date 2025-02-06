@@ -104,6 +104,7 @@ nav{
     margin: 0%;
     margin-bottom: 0px;
 }
+
 article {
 background-color: #554e47; 
 text-align: center;
@@ -181,7 +182,8 @@ a {
 
 
 a:hover {
-    font-size: 28px;
+    color: #ffffffae;
+    font-size: 25px;
 }
 
 
@@ -195,6 +197,16 @@ ul {
     padding: 20px;
 }
 
+.LogIn nav {
+    color: #000000;
+    text-align: right;
+
+}
+
+.LogIn div {
+    color: #000000;
+    text-align: right;
+}
 
 div {
     float: center;

@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="Style.css">
+        <link rel="stylesheet" type="text/css" href="CSS/Style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> All the War Thunder Leaks </title>
-    <link rel="stylesheet" href="Style.css">
 </head>
 <body>
     <header>

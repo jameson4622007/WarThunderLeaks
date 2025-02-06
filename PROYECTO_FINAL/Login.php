@@ -6,9 +6,9 @@
         <link rel="stylesheet" type="text/css" href="Style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> All the War Thunder Leaks </title>
-    <link rel="stylesheet" href="Singin.css">
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="CSS/Singin.css">
 </head>
-
 <body>
 <header>
 <nav>
@@ -33,9 +33,8 @@
             
             <label for="password">Contraseña</label>
             <input type="password" id="password" name="password" required>
-            
-            <button type="submit">Ingresar</button>
         </form>
+        <button type="submit">Submit</button>
         <h3>⬇ ¿You Dont have a account? ⬇</h3>
     <a href="SingUp.php">
         <?php echo '<button class="custom-btn">Click aquí</button>';?>
@@ -44,8 +43,10 @@
         <br>
     </div>
     </main>
+
 <footer>
 <?php include_once "includes/footer.php" ?>
 </footer>
+
 </body>
 </html>
