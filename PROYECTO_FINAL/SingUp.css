@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3c6a3;
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    background-color: #d3c6a3;
+}
+.top-nav {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.top-nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+.top-nav a:hover {
+    background-color: #53524c;
+    color: black;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+.SingUp-container {
+    background-color: #4a4a4a;
+    color: white;
+    width: 400px;
+    margin: 80px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+.SingUp-container h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.SingUp-container label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+}
+.SingUp-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.SingUp-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #a08862;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.SingUp-container button:hover {
+    background-color: #a9956d;
+}
+.SingUp-container h3 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.custom-btn {
+    background-color: #9d8f57;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.custom-btn:hover {
+    background-color: #9d8f57;
+    transform: scale(1.05);
+}
+
+.custom-btn:active {
+    background-color: #9d8f57;
+    transform: scale(0.98);
+}
